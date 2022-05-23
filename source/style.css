@@ -18,7 +18,18 @@
     .me {
         padding-bottom: 4px;
         border-bottom: 1px solid #ddd;
+        display: flex;
     }
+
+.contacts,
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 100px;
+}
 
     section h4 {
         font: inherit;
